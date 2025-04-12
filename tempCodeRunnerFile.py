@@ -22,7 +22,7 @@ def speak(text):
 
 def ai_respose(prompt): 
 
-    palm.configure(api_key="AIzaSyDiqEPDpI47Qd4Je3I3chb5-z2ZQyKu3gk")
+    palm.configure(api_key="")
     response = palm.chat(messages=[str(prompt)])
     return response.last
 
